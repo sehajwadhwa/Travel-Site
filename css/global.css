@@ -1,0 +1,79 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header {
+  position: static;
+}
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  justify-content: space-around;
+  color: #335576;
+}
+.logo {
+  color: #335576;
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 500px;
+}
+
+.home ul {
+  display: flex;
+  align-items: center;
+}
+.home ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-size: 18px;
+}
+.home ul li a:hover {
+  border-bottom: 4px solid #db7a4e;
+  transition: 0.4s;
+}
+.footer {
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fefaf5;
+}
+.footer_contact,
+.footer_hours,
+.footer-social {
+  color: #335576;
+}
+.footer_subtitle {
+  margin-top: 1rem;
+  color: #db7a4e;
+  font-size: 1.2rem;
+}
+.footer_subtitle-txt {
+  margin-top: 1.2rem;
+  font-size: 1.3rem;
+}
+.footer p {
+  display: inline-block;
+}
+
+.footer_hours-1,
+.footer_hours-2,
+.footer_hours-3 {
+  display: inline-block;
+  margin-right: 2rem;
+}
